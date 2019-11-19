@@ -35,12 +35,14 @@ public class Tela extends javax.swing.JFrame {
         initComponents();
         initTela();
         
+        
         arrayproduto = p_Tela_DAO.retornarProdutosDAO(); //busca os produtos do BD
         
     }
     
     double total=0.00;
 
+    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -110,7 +112,9 @@ public class Tela extends javax.swing.JFrame {
         jLabel26.setText("0");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Loja CoffeShop Express ");
         setBackground(new java.awt.Color(255, 255, 255));
+        setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
 
         jPanel1.setBackground(new java.awt.Color(102, 51, 0));
 
@@ -553,8 +557,10 @@ public class Tela extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
-
+    
+    
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
         if(qtd2>0){
@@ -622,6 +628,7 @@ public class Tela extends javax.swing.JFrame {
     /**
      * @param args the command line arguments
      */
+    
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
