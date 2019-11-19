@@ -1,5 +1,5 @@
 # CoffeeShopExpress
-Trabalho CoffeeShop Express desenvolvido em Java/MySQL para disciplina de Banco de Dados
+Trabalho CoffeeShop Express desenvolvido em Java/MySQL para disciplina de Banco de Dados (C207)
 
 ## Modelo Entidade Relacionamento
 
